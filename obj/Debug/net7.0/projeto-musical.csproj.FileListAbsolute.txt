@@ -1,0 +1,15 @@
+/Users/gabrielalves/projetos-pessoais/projeto-musical/bin/Debug/net7.0/projeto-musical
+/Users/gabrielalves/projetos-pessoais/projeto-musical/bin/Debug/net7.0/projeto-musical.deps.json
+/Users/gabrielalves/projetos-pessoais/projeto-musical/bin/Debug/net7.0/projeto-musical.runtimeconfig.json
+/Users/gabrielalves/projetos-pessoais/projeto-musical/bin/Debug/net7.0/projeto-musical.dll
+/Users/gabrielalves/projetos-pessoais/projeto-musical/bin/Debug/net7.0/projeto-musical.pdb
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.csproj.AssemblyReference.cache
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.AssemblyInfoInputs.cache
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.AssemblyInfo.cs
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.csproj.CoreCompileInputs.cache
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.dll
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/refint/projeto-musical.dll
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.pdb
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/projeto-musical.genruntimeconfig.cache
+/Users/gabrielalves/projetos-pessoais/projeto-musical/obj/Debug/net7.0/ref/projeto-musical.dll
