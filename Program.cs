@@ -1,5 +1,5 @@
 ﻿string firstMenssager = "Seja bem vindo ao screenSound";
-
+List<string> listBand = new List<string> {"U2", "The beatles", "Iron Maden"};
 void Logo ()
 {
     // @ signifca verbatim literal
@@ -13,11 +13,9 @@ void Logo ()
     Console.WriteLine(firstMenssager);
 
 }
-Logo();
-
-void ExceptionOptionsMenu () {
+void Menu () {
     Logo();
-    
+
     Console.WriteLine("\nDigite 1 para registrar uma banda");
     Console.WriteLine("Digite 2 para mostrar todas as bandas");
     Console.WriteLine("Digite 3 para avaliar uma banda");
@@ -37,7 +35,7 @@ void ExceptionOptionsMenu () {
     switch (choiceNumber) {
         case 1: RegisterBand ();
             break;
-        case 2: Console.WriteLine("voce digitou a opção: " + choiceNumber);
+        case 2: ShowBand();
             break;
         case 3: Console.WriteLine("voce digitou a opção: " + choiceNumber);
             break;
@@ -56,11 +54,26 @@ void RegisterBand () {
     Console.WriteLine("Registro de bandas");
     Console.WriteLine("digite a banda que voce deseja registar: ");
     string band = Console.ReadLine()!;
+    listBand.Add(band);
     Console.WriteLine($"A banda {band} foi registrada com sucesso");
     Thread.Sleep(2000);
     Console.Clear();
-    ExceptionOptionsMenu();
+    Menu();
 };
 
-ExceptionOptionsMenu ();
-RegisterBand ();
+void ShowBand () {
+    Console.Clear();
+    Console.WriteLine("bandas registradas: ");
+    // for (int i = 0; i < listBand.Count; i++){
+    //     Console.WriteLine($"Banda: {listBand[i]}");
+    // }
+
+    foreach (string band in listBand){
+        Console.WriteLine($"Banda: {band}");
+    };
+
+    Console.WriteLine("Digite qualquer tecla para voltar ao menu principal");
+    Console.ReadKey();
+        Menu ();
+};
+Menu ();
